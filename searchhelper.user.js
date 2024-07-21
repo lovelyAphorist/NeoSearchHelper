@@ -3,7 +3,7 @@
 // @version      1.0.1
 // @namespace    neopets
 // @description  Adds convenient search icons to many places
-// @author       diceroll123
+// @author       diceroll123 + LovelyAphorist
 // @match        *://*.neopets.com/auctions.phtml*
 // @match        *://*.neopets.com/closet.phtml*
 // @match        *://*.neopets.com/dome/neopets.phtml*
