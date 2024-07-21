@@ -44,7 +44,7 @@ const imgSize = 20; // for the search images
 $(`<style type='text/css'>
 .searchimg { cursor: pointer; height: ${imgSize}px !important; width: ${imgSize}px !important; border: none !important; border-radius: 0px !important;}
 .search-helper { margin-top: 0; margin-bottom: 0; }
-.itemdbimg { cursor: pointer; height: ${imgSize}px !important; width: ${imgSize * 3}px !important; }
+.itemdbimg { cursor: pointer; height: ${imgSize}px !important; width: ${imgSize}px !important; }
 </style>`).appendTo("head");
 
 
@@ -93,7 +93,7 @@ const linkmap = { // for urls and images for each search type
     },
     itemdb: {
         "url": "https://itemdb.com.br/search?s=%s",
-        "img": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAMAAAC6V+0/AAABXFBMVEVHcEwAAAACAwMAAAALBwUAAAAAAAAAAAAAAAAJCAkLCww5OTkCAgIRERMgDAcSExUAAAACAQEAAAAuMDQOCgctLjEAAAAgJS4bHyVcZncqHhVcQS0uIBc2JBYdHRwAAAASDQsBAQELCAZROScjFw5FQ0INDhAuHhQFBARLVGUgICEOAwEnCQMAAABLU2A9DAJgFQWBjaIlKTETFRhCS1sBAQKPnLRlbn8gGhwkJi04PUcGAAAxCgM6DQQ6Q1F8iZ2ve1OxfVS0flWBVTNIR0lIMSB1TS5nRSqCWz1vSSt+j6lkbH1qdYhQNiJcQCp7VjplZGcyLCilvOCIm7t1UjhqSzSjck2Ih4eVaEVvbW1DNy1JTVVcWlpOOy1KUl90haBuFwR4hZpTUFB7VzuuelJUUVBlVElBR1RsWEo5P0mqkoBLREBVYXU+OzuKYEA6Kh+MHQZePD1QGA6Qo8GEYI6fAAAAQHRSTlMAC1gufhAIBDN2kfJVqbuKJls9vKzrGr2g+MjzvOO9RcREaerd/uLy0/v5mfmH7+n279fC7Ev76dr6+bjb5+vuG3o0JwAAAR9JREFUGNNNkFWXgmAURT8QhQ+7dbq7uweGDgOw2+nO/7/WICJ63+5+2PfcAwACAMAPfW4wMlgAJgBxuRMII0O48d05gZGLzk86iDtwffu3qwTR89P2FuFAnCCv/s6Or7tqC45qoaqoR7vpVhQfga4DeR/dXHmKwzDqKJCksRdb5sS7QqE45kQjX96aUuaepumb8YjNZhdqr88SV6EpihYxG/q47GNTyORMSJUm7B9Ck0KWZ4RsD1Lzrj70BHiGYXiu1JPm5gb/ZyQTc7nKpygWZ1ArAE5qWk2Qvti8oqj1JWhZCW++UdVYWdd1YzVlO32LD9VyXTbk9jsbD9nKaS+bL3uTKf/aRyM6aNU9dcuyZpse6CeH9RH+GJawTvb3f82DM9CC7PYOAAAAAElFTkSuQmCC"
+        "img": "https://itemdb.com.br/favicon.ico"
     }
 
 };
